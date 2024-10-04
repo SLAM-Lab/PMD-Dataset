@@ -55,13 +55,20 @@ When no malware is executing, a state is considered benign and specified in trac
 
 
 ### States
-s0: ----------------, ----------, ----  (idle) 
+s0: ----------------, ----------, ----  (idle)
+
 s1: ----------------, ----------, hash 
+
 s2: ----------------, facedetect, ---- 
+
 s3: ----------------, facedetect, hash 
+
 s4: package-delivery, ----------, ---- 
+
 s5: package-delivery, ----------, hash 
+
 s6: package-delivery, facedetect, ---- 
+
 s7: package-delivery, facedetect, hash 
 
 ### Legend
