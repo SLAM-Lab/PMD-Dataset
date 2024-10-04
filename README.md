@@ -75,9 +75,13 @@ s7: package-delivery, facedetect, hash
 Traces are provided in csv format and labelled {state}\_{attack}\_2024\_{index}.csv
 
 s0\_b\_2024\_00.csv refers to the first trace collected from benign state 0.
+
 s0\_b\_2024\_01.csv refers to the second trace collected from benign state 0.
+
 s1\_b\_2024\_00.csv refers to the first trace collected from benign state 1.
+
 s1\_m\_2024\_00.csv refers to the first trace collected from state 1 when infected by Meltdown.
+
 s1\_cc\_2024\_00.csv refers to the first trace collected from state 1 when infected by L1-Cache Covert-Channel.
 
 
