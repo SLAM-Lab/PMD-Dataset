@@ -11,9 +11,7 @@ Current sensor readings were recorded using a PicoScope 2408B oscilloscope at a 
 Each trace samples one operating state; a permutation of executing applications.
 Traces feature both uninfected and infected counterparts of each state.
 
-
-## Paper
-More technical details are available in our paper published in HASP 2024.(SoK Paper: Power Side-Channel Malware Detection);
+More technical details are available in [1].
 
 
 ## Instructions
@@ -28,8 +26,7 @@ Attack specifies which attack (malware) is executing in parallel with the state.
 Index is used to order traces of the same state and attack. 
 
 
-### Applications and Malware
-#### Benign Applications
+### Benign Applications
 **hash**
 SHA-3 implementation from the Extended Keccak Code Package [link](https://github.com/XKCP/XKCP).
 
@@ -40,7 +37,7 @@ A face detection application using the [OpenCV](https://docs.opencv.org/4.x/inde
 Autonomous drone package delivery benchmark from [MAVBench](https://github.com/harvard-edge/MAVBench).
 
 
-#### Malware
+### Malware
 [Meltdown](https://meltdownattack.com/) [Proof of concept](https://github.com/IAIK/meltdown) 
 Specified in trace naming as: \_m\_
 
@@ -84,8 +81,13 @@ s1\_m\_2024\_00.csv refers to the first trace collected from state 1 when infect
 
 s1\_cc\_2024\_00.csv refers to the first trace collected from state 1 when infected by L1-Cache Covert-Channel.
 
+## Reference
 
+[1] Alexander Cathis, Ge Li, Shijia Wei, Michael Orshansky, Mohit Tiwari, and Andreas Gerstlauer, "[SoK Paper: Power Side-Channel Malware Detection](http://slam.ece.utexas.edu/pubs/hasp24.SoK.pdf)," International Workshop on Hardware and Architectural Support for Security and Privacy (HASP), Austin, TX, November 2024.
 
+## Contact
+
+Alexander Cathis \<alexander.cathis@utexas.edu\>
 
 
 
